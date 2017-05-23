@@ -1,3 +1,2 @@
 type lirc_device, dev_type;
-type persist_block_device, dev_type;
-type cache_block_device, dev_type;
+
