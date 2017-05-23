@@ -18,7 +18,7 @@
     {
     "remote": "Muppet",
     "repository": "proprietary_vendor_xiaomi",
-    "target_path": "vendor/qcom/binaries",
+    "target_path": "vendor/xiaomi",
     "branch":      "cm-14.1"
   }
 ]
