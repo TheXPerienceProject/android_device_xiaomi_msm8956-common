@@ -14,9 +14,8 @@
     "branch":      "cm-14.1"
   },
     {
-    "remote": "Muppet",
+    "remote":      "Unicorn",
     "repository": "proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "branch":      "cm-14.1"
+    "target_path": "vendor/xiaomi"
   }
 ]
