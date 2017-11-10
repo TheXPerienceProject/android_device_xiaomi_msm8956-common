@@ -7,7 +7,12 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="cyanogenmod.permission.MANAGE_REMOTE_PREFERENCES" />
+    	
+    <!-- Permission for managing remote preferences -->
+    <permission android:name="cyanogenmod.permission.MANAGE_REMOTE_PREFERENCES"
+                android:label="@string/permlab_manageRemotePrefs"
+                android:description="@string/permdesc_manageRemotePrefs"
+                android:protectionLevel="signature|privileged" />
 
     <uses-sdk
         android:minSdkVersion="24"

@@ -19,7 +19,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import cyanogenmod.preference.RemotePreferenceUpdater;
+import com.cyanogenmod.settings.doze.cm.RemotePreferenceUpdater;
 
 public class DozeReceiver extends RemotePreferenceUpdater {
 

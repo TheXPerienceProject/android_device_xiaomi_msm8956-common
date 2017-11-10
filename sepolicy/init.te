@@ -1,1 +1,7 @@
 allow init debugfs:file write;
+allow init device:chr_file rw_file_permis;
+allow init ion_device:chr_file rw_file_permis;
+allow init uio_device:chr_file rw_file_permis;
+allow init tmpfs:lnk_file create;
+allow init init:socket { read open write create };
+allow init vfat:file { read open };
