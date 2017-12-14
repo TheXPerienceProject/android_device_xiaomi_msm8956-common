@@ -113,8 +113,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8952 \
-    libqomx_core \
+#    camera.msm8952 \
+#    libqomx_core \
     Snap \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
@@ -174,7 +174,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.msm8952 \
+#    gps.msm8952 \
     libcurl
 
 PRODUCT_PACKAGES += \
