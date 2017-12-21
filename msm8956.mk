@@ -175,7 +175,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-#    gps.msm8952 \
+    gps.msm8952 \
     libcurl
 
 PRODUCT_PACKAGES += \
