@@ -9,3 +9,5 @@
 
 # IR Blaster
 /dev/lirc[0-9]*                                                       u:object_r:lirc_device:s0
+
+/system/bin/init\.qcom\.sh            u:object_r:init_qcom_exec:s0
