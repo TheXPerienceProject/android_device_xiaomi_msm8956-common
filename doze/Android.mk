@@ -15,11 +15,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-appcompat \
     android-support-v14-preference
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 9317efc... msm8956-common: doze: take it out of cmsdk
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
     $(LOCAL_PATH)/../../../../packages/resources/devicesettings/res \
