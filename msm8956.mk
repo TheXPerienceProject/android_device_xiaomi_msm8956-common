@@ -113,8 +113,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-#    camera.msm8952 \
-#    libqomx_core \
+    camera.msm8952 \
+    libqomx_core \
     Snap \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
@@ -153,7 +153,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    #XiaomiDoze
+    XiaomiDoze
 
 # Face detection extension
 PRODUCT_PACKAGES += \
@@ -161,7 +161,6 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    fingerprintd \
     android.hardware.biometrics.fingerprint@2.0-service-custom
 
 # FM
